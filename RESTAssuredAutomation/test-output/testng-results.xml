@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-20T11:18:33 IST" name="Default suite" finished-at="2023-07-20T11:18:36 IST" duration-ms="2453">
+  <suite started-at="2023-07-20T13:27:19 IST" name="Default suite" finished-at="2023-07-20T13:27:21 IST" duration-ms="2873">
     <groups>
     </groups>
-    <test started-at="2023-07-20T11:18:33 IST" name="Default test" finished-at="2023-07-20T11:18:36 IST" duration-ms="2453">
+    <test started-at="2023-07-20T13:27:19 IST" name="Default test" finished-at="2023-07-20T13:27:21 IST" duration-ms="2873">
       <class name="Tests.XmlSchemaValidate">
-        <test-method signature="test()[pri:0, instance:Tests.XmlSchemaValidate@6ae5aa72]" started-at="2023-07-20T11:18:33 IST" name="test" finished-at="2023-07-20T11:18:36 IST" duration-ms="2412" status="FAIL">
+        <test-method signature="test()[pri:0, instance:Tests.XmlSchemaValidate@6ae5aa72]" started-at="2023-07-20T13:27:19 IST" name="test" finished-at="2023-07-20T13:27:21 IST" duration-ms="2829" status="FAIL">
           <exception class="groovy.lang.GroovyRuntimeException">
             <message>
               <![CDATA[Ambiguous method overloading for method io.restassured.internal.matcher.xml.XmlXsdMatcher#matchesXsd.

@@ -41,7 +41,7 @@ public class XmlSchemaValidate
 		then().
 		     statusCode(200).log().all().and().body("//*:AddResult.text()", equalTo("5")).
 		and().
-		     assertThat().body(matchesXsdInClasspath("Calculator.XSD"));
+		     assertThat().body(matchesXsdInClasspath("Calculator.xsd"));
 
 	    
 		
